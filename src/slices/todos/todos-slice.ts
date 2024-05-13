@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 import { TodoType } from "../../types/todo-type";
-import { act } from "react";
+
 const initialState: { todos: TodoType[] } = {
   todos: [],
 };
