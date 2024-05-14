@@ -43,7 +43,7 @@ const InputTodo = () => {
         value={todo.title}
       />
       <label htmlFor="title">Todo Title</label>
-      {/* функція додавання todo працюватиме тільки тоді, коли заповнено title */}
+      {/* функція додавання todo працюватиме тільки тоді, коли заповнено title  */}
       <a
         className="waves-effect waves-light btn-large"
         onClick={todo.title.length > 0 ? addTodoHandler : () => {}}
